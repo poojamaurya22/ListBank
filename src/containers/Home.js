@@ -40,6 +40,7 @@ class Home extends Component {
         const lastIndex = currentPage * pageSize;
         const firstIndex = lastIndex - pageSize;
     
+        // filtering data based on dropdown and search change
         const filteredResult = results.filter(result => {
             const filter2 = result.city.toLowerCase().includes(cityValue.toLowerCase());
 
@@ -60,6 +61,7 @@ class Home extends Component {
 
         const resultSize = filteredResult.length;
 
+        // current page data 
         const finalResult = filteredResult.slice(firstIndex, lastIndex);
 
         return (

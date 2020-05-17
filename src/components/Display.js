@@ -11,7 +11,7 @@ function Display({bankdetails, searchChange, cityChange, categoryChange, cityVal
             <div className="d-flex justify-content-between main">
                 <div className="w-50"><h4>Banks</h4></div>
                 {/* dropdown - city */}
-                <div className="">
+                <div className="dropdown-city">
                     <select value={cityValue.length===0?"Select City":cityValue} onChange={cityChange}>
                         <option value="Mumbai">Mumbai</option>
                         <option value="Pune">Pune</option>
@@ -21,7 +21,7 @@ function Display({bankdetails, searchChange, cityChange, categoryChange, cityVal
                     </select>
                 </div> 
                 {/* dropdown - category */}
-                <div>
+                <div className="dropdown-cat">
                     <select value={categoryValue.length===0?"Select Category":categoryValue} onChange={categoryChange}>
                         <option value="BankName">Bank Name</option>
                         <option value="Branch">Branch</option>
@@ -29,11 +29,12 @@ function Display({bankdetails, searchChange, cityChange, categoryChange, cityVal
                     </select>
                 </div>
                 {/* search */}
-                <div className="">
-                    <input className="" type='text' placeholder='&#128269;' onChange={searchChange}/>
+                <div className="input-search">
+                    <input type='text' placeholder='&#128269;' onChange={searchChange}/>
                 </div>
             </div>
             <div className="details" style={{'overflowX':'auto'}}>
+                {/* table listing details */}
                 <table className="table table-sm table-hover">
                     <thead className="thead-dark">
                         <tr>
@@ -58,15 +59,16 @@ function Display({bankdetails, searchChange, cityChange, categoryChange, cityVal
                 </table>
             </div>
             <div className="d-flex justify-content-between w-50 pagination">
+                {/* pagination */}
                 <div className="row">Rows Per Pages:
-                <div className="ML10">
-                    <select value={pageSize} onChange={changePageSize}>
-                        <option value="5">5</option>
-                        <option value="10">10</option>
-                        <option value="15">15</option>
-                        <option value="20">20</option>
-                    </select>
-                </div>
+                    <div className="ML10">
+                        <select value={pageSize} onChange={changePageSize}>
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
                 </div>
                 <div className="row">{firstIndex}-{lastIndex} of {resultSize}
                     <div className="row ML10">
