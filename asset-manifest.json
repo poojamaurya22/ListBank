@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ListBank/static/css/main.b00d0270.chunk.css",
-    "main.js": "/ListBank/static/js/main.e7a1b3e1.chunk.js",
-    "main.js.map": "/ListBank/static/js/main.e7a1b3e1.chunk.js.map",
+    "main.js": "/ListBank/static/js/main.580ec91d.chunk.js",
+    "main.js.map": "/ListBank/static/js/main.580ec91d.chunk.js.map",
     "runtime-main.js": "/ListBank/static/js/runtime-main.a68408cd.js",
     "runtime-main.js.map": "/ListBank/static/js/runtime-main.a68408cd.js.map",
     "static/css/2.47e06e2e.chunk.css": "/ListBank/static/css/2.47e06e2e.chunk.css",
     "static/js/2.2408040b.chunk.js": "/ListBank/static/js/2.2408040b.chunk.js",
     "static/js/2.2408040b.chunk.js.map": "/ListBank/static/js/2.2408040b.chunk.js.map",
     "index.html": "/ListBank/index.html",
-    "precache-manifest.812b46fee24e6d2ca6a40fe193b59c3d.js": "/ListBank/precache-manifest.812b46fee24e6d2ca6a40fe193b59c3d.js",
+    "precache-manifest.c98225cf0ed67cad265cef5aeba0e00f.js": "/ListBank/precache-manifest.c98225cf0ed67cad265cef5aeba0e00f.js",
     "service-worker.js": "/ListBank/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/ListBank/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.b00d0270.chunk.css.map": "/ListBank/static/css/main.b00d0270.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.2408040b.chunk.js",
     "static/css/main.b00d0270.chunk.css",
-    "static/js/main.e7a1b3e1.chunk.js"
+    "static/js/main.580ec91d.chunk.js"
   ]
 }
