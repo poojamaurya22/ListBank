@@ -11,8 +11,8 @@ class App extends Component {
         <BrowserRouter>
           <SideBar />
           <Switch>
-            <Route component={Home}/>
-            {/* <Route component={Error}/> */}
+            <Route path="https://poojamaurya22.github.io/ListBank/" component={Home} exact/>
+            <Route component={Error}/>
           </Switch>
         </BrowserRouter>
     );
