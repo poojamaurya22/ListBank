@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ce6b3f5e1c8027420482c322da501cb4",
+    "revision": "9aefc989a08628899914b74ef8346f53",
     "url": "/ListBank/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ListBank/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "fe315fcb68592fc78604",
+    "revision": "d2a66eba2800be7e819e",
     "url": "/ListBank/static/css/main.b00d0270.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ListBank/static/js/2.2408040b.chunk.js.LICENSE"
   },
   {
-    "revision": "fe315fcb68592fc78604",
-    "url": "/ListBank/static/js/main.383c70ef.chunk.js"
+    "revision": "d2a66eba2800be7e819e",
+    "url": "/ListBank/static/js/main.db4d444f.chunk.js"
   },
   {
     "revision": "6ff1c9d0a63b3ea87e1e",
