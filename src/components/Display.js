@@ -13,6 +13,7 @@ function Display({bankdetails, searchChange, cityChange, categoryChange, cityVal
                 {/* dropdown - city */}
                 <div className="dropdown-city">
                     <select value={cityValue.length===0?"Select City":cityValue} onChange={cityChange}>
+                        <option value="">Select City</option>
                         <option value="Mumbai">Mumbai</option>
                         <option value="Pune">Pune</option>
                         <option value="Delhi">Delhi</option>
@@ -23,6 +24,7 @@ function Display({bankdetails, searchChange, cityChange, categoryChange, cityVal
                 {/* dropdown - category */}
                 <div className="dropdown-cat">
                     <select value={categoryValue.length===0?"Select Category":categoryValue} onChange={categoryChange}>
+                        <option value="">Select Category</option>
                         <option value="BankName">Bank Name</option>
                         <option value="Branch">Branch</option>
                         <option value="IFSC">IFSC</option>

@@ -44,7 +44,7 @@ export const changeCity = (state=initialStateCity, action={}) => {
 }
 
 const initialStateCategory = {
-    category: 'BankName'
+    category: ''
 }
 export const changeCategory = (state=initialStateCategory, action={}) => {
     switch(action.type){

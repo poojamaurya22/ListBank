@@ -11,8 +11,8 @@ class App extends Component {
         <BrowserRouter>
           <SideBar />
           <Switch>
-            <Route path="/ListBank" component={Home} exact/>
-            <Route component={Error}/>
+            <Route path="/BankList" component={Home}/>
+            {/* <Route component={Error}/> */}
           </Switch>
         </BrowserRouter>
     );
