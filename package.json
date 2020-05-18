@@ -1,4 +1,5 @@
 {
+  "homepage" : "https://poojamaurya22.github.io/ListBank/",
   "name": "kiosk",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +11,8 @@
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
-    "node-sass": "^4.13.1",
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.14.1",
     "prismic-javascript": "^2.1.5",
     "prismic-reactjs": "^1.2.0",
     "react": "^16.12.0",
